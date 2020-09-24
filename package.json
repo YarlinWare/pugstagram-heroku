@@ -1,0 +1,29 @@
+{
+  "name": "pugstagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-svelte": "webpack --mode production",
+    "start-svelte": "webpack-dev-server --open --mode development",
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "sapper __sapper__/build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "polka": "^0.5.2",
+    "sapper-environment": "^1.0.1",
+    "sirv": "^1.0.6"
+  },
+  "devDependencies": {
+    "file-loader": "^6.1.0",
+    "svelte": "^3.18.2",
+    "sapper": "^0.28.8",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.41.6"
+  }
+}
